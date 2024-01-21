@@ -1,0 +1,1373 @@
+#gory{
+    width: auto;
+    height: auto;
+    margin-bottom: 60px;
+}
+
+.wrap{
+    max-width: 1180px;
+    margin-left: 71px;
+    margin-top: 23px;
+}
+
+.pierwsza{
+    background-image: url(img/209775_morze-gory-drzewa.jpg);
+    opacity: 1;
+    height: 600px;
+    width: auto;
+    background-position: center;
+    background-size: cover;
+}
+
+.lew{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px 20px;
+}
+
+.burger{
+    display: none;
+}
+
+.menuu ul{
+    display: flex;
+    list-style: none;
+}
+
+.menuu ul li a{
+    display: block;
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 10px 25px;
+    border-radius: 50px;
+    transition: 0 5px;
+    text-decoration: none;
+}
+
+.menuu ul li a:hover{
+    color:#70CECF;
+}
+
+.dropdown{
+	position: absolute;
+	background: none;
+	box-shadow: 0 4px 10px #ffffff;
+}
+
+.burger2{
+    display: none;
+}
+
+.menuu2 ul{
+    display: flex;
+    list-style: none;
+}
+
+.menuu2 ul li a{
+    display: block;
+    color: #000000;
+    font-size: 20px;
+    padding: 10px 25px;
+    border-radius: 50px;
+    transition: 0 5px;
+    text-decoration: none;
+}
+
+.menuu2 ul li a:hover{
+    color:#70CECF;
+}
+
+.dropdown2{
+	position: absolute;
+	background: none;
+	box-shadow: 0 4px 10px rgba(10, 20, 30, .4);
+    display: none;
+}
+
+
+@media(max-width: 1120px){
+    .burger{
+        display: block;
+        cursor: pointer;
+    }
+    .burger .line{
+        width: 30px;
+        height: 3px;
+        background: #FFFFFF;
+        margin: 6px 0;
+    }
+    .menuu{
+        height: 0;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        right: 0;
+        width: 100vw;
+        background: black;
+        transition: 0.5s;
+        overflow: hidden;
+    }
+
+    .menuu ul{
+        display: block;
+        width: fit-content;
+        margin: 80px auto 0 auto;
+        text-align: center;
+        transition: 0.5s;
+        opacity: 0;
+    }
+
+    .menuu ul li a{
+        margin-bottom: 12px;
+        
+    }
+
+    .menuu.active{
+        height: 450px;
+    }
+
+    .menuu.active ul{
+        opacity: 1;
+    }
+
+    .dropdown{
+        top: 63px;
+        right: 315px;
+    }
+
+    .burger2{
+        display: block;
+        cursor: pointer;
+    }
+    .burger2 .line{
+        width: 30px;
+        height: 3px;
+        background: #FFFFFF;
+        margin: 6px 0;
+    }
+    .menuu2{
+        height: 0;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        right: 0;
+        width: 100vw;
+        background: black;
+        transition: 0.5s;
+        overflow: hidden;
+    }
+
+    .menuu2 ul{
+        display: block;
+        width: fit-content;
+        margin: 80px auto 0 auto;
+        text-align: center;
+        transition: 0.5s;
+        opacity: 0;
+    }
+
+    .menuu2 ul li a{
+        margin-bottom: 12px;
+        
+    }
+
+    .menuu2.active2{
+        height: 450px;
+    }
+
+    .menuu2.active2 ul{
+        opacity: 1;
+    }
+}
+
+.gpipp{
+    margin-top: 10px;
+}
+
+.pierwsza img{
+    width: 64px;
+    height: 64px;
+}
+
+#gp{
+    text-align: left;
+    font: normal normal bold 20px/20px Open Sans;
+    letter-spacing: 0px;
+    color: #70CECF;
+    text-transform: uppercase;
+    white-space:nowrap;
+}
+
+#ipp{
+    text-align: left;
+    font: normal normal bold 17px/20px Open Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    white-space:nowrap;
+    margin-top: -15px;
+}
+
+.psychoterapia{
+    text-align: center;
+    font: normal normal 800 56px/69px Open Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 450px;
+    padding-right: 450px;
+    padding-top: 77px;
+}
+
+#jesli{
+    text-align: center;
+    font: normal normal normal 20px/25px Open Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-shadow: 15px 3px 6px #00000029;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.n{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#n1{
+    font: normal normal 600 16px/22px Open Sans;
+    letter-spacing: 0px;
+    color: #050E5E;
+    text-transform: uppercase;
+    
+}
+
+#n2{
+    font: normal normal 600 16px/22px Open Sans;
+    letter-spacing: 0px;
+    color: #989797;
+    text-transform: uppercase;
+
+}
+
+.kolo{
+    border-radius: 50%;
+    top: 70px;
+    height: 262px;
+    width:262px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+} 
+
+.z{
+    position:absolute;
+    height: 262px;
+    width: 262px;
+    z-index: -1;
+    transition: all 0.5s;
+}
+
+.kolo:hover .z{
+    position:absolute;
+    height: 300px;
+    width: 300px;
+}
+
+#terapia1{
+    text-align: center;
+    font: normal normal bold 23px/25px Open Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 5px #00000029;
+    opacity: 1;
+    top: 110px;
+    left: 0px;
+    width: 105px;
+    height: 57px;
+
+}
+
+#terapia2{
+    text-align: center;
+    font: normal normal bold 23px/25px Open Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 5px #00000029;
+    opacity: 1;
+    top: 110px;
+    width: 96px;
+    height: 57px;
+}
+
+#terapia3{
+    text-align: center;
+    font: normal normal bold 23px/25px Open Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 5px #00000029;
+    opacity: 1;
+    top: 110px;
+    width: 186px;
+    height: 57px;
+}
+
+#terapia4{
+    text-align: center;
+    font: normal normal bold 23px/25px Open Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 5px #00000029;
+    opacity: 1;
+    top: 110px;
+    width: 176px;
+    height: 57px;
+}
+
+#oraz{
+    font: normal normal 600 16px/22px Open Sans;
+    color: #989797;
+    opacity: 1;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.napis{
+    text-align: center;
+    font: normal normal normal 18px/24px Open Sans;
+    color: #373232;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 480px;
+    padding-right: 480px;
+    padding-top: 29px;
+}
+
+#k1{
+    background: #70CECF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    top: 11000px;
+    width: auto;
+    height: 111px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-top: 75px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#s1{
+    font-size: 22px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1; 
+    margin-right: 27px;
+}
+
+#s12{
+    text-align: right;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: -19px;
+    margin-right: 27px;
+}
+
+#k1 img{
+    height: 68px; 
+    width: 68px;
+    margin-top: -14px;
+    margin-right: 39px;
+}
+
+#k2{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    top: 11000px;
+    width: auto;
+    height: 111px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 75px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#s2{
+    font-size: 22px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #70CECF;
+    opacity: 1;
+    margin-top: 1px;
+    margin-left: 27px;
+}
+
+#s22{
+    font-size: 22px;
+    letter-spacing: 0px;
+    color: #70CECF;
+    opacity: 1;
+    font-weight: bold;
+    margin-top: -19px;
+    margin-left: 27px;
+}
+
+#k2 img{
+    height: 68px;
+    width: 68px;
+    margin-top: -14px;
+    margin-left: 39px;
+}
+
+#przycisk{
+    background: #373232 0% 0% no-repeat padding-box;
+    color: #FFFFFF;
+    border-radius: 35px;
+    opacity: 1;
+    width: 293px;
+    height: 48px;
+    margin-top: 61px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#guzik{
+    background: none;
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+    border-radius: 35px;
+    opacity: 1;
+    width: 293px;
+    height: 48px;
+    margin-top: 61px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.ramka{
+    background: transparent linear-gradient(180deg, #03152C 0%, #032854 100%) 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+    padding-top: 50;
+    height: auto;
+    width: auto;
+    margin-top: 102px;
+    position: relative;
+}
+
+#omn{
+    font: normal normal bold 18px/22px Open Sans;
+    color: #FFFFFF;
+    margin-top: 53px;
+    margin-left: 120px;
+    text-align: left;
+}
+
+#jestem{
+    font: normal normal 600 16px/22px Open Sans;
+    color: #70CECF;
+    text-align: left;
+    margin-top: 21px;
+    margin-left: 120px;
+    margin-right: 407px;
+}
+
+#proponuje{
+    font: normal normal normal 16px/22px Open Sans;
+    color: #ffffff;
+    text-align: left;
+    margin-top: 21px;
+    margin-left: 120px;
+    margin-right: 407px;
+}
+#podpis{
+    text-align: center;
+    font: normal normal normal 25px/38px Pacifico;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+#pani{
+    position: absolute;
+    right: 120px;
+    left: auto;
+    bottom: 0;
+    height: 475px;
+    width: 415px;
+    margin-left: auto;
+    padding-top: 50px;
+    padding-right: auto;
+}
+
+#FAQ{
+    text-align: center;
+    font: normal normal 600 20px/27px Open Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    margin-top: 89px;
+}
+
+#jak{
+    text-align: left;
+    font: normal normal 600 18px/24px Open Sans;
+    letter-spacing: 0px;
+    color: #373232;
+    opacity: 1;
+    margin-top: 46px;
+}
+
+#button1{
+    border-radius: 50%;
+    opacity: 1;
+    height: 25px;
+    width: 25px;
+    margin-top: 46px;
+    margin-left: 10px;
+    color: #FFFFFF;
+
+}
+
+#l1{
+    display: none;
+}
+
+.menu1{
+    display: flex;
+    justify-content: flex-start;
+}
+
+#Co{
+    text-align: left;
+    font: normal normal 600 18px/24px Open Sans;
+    letter-spacing: 0px;
+    color: #373232;
+    opacity: 1;
+    margin-top: 27px;
+}
+
+#button2{
+    border-radius: 50%;
+    opacity: 1;
+    height: 25px;
+    width: 25px;
+    margin-top: 27px;
+    margin-left: 10px;
+    color: #FFFFFF;
+}
+
+
+.menu2{
+    display: flex;
+    justify-content: flex-start;
+}
+
+#Po{
+    text-align: left;
+    font: normal normal 600 18px/24px Open Sans;
+    letter-spacing: 0px;
+    color: #373232;
+    opacity: 1;
+    margin-top: 27px;
+}
+
+#button3{
+    border-radius: 50%;
+    opacity: 1;
+    height: 25px;
+    width: 25px;
+    margin-top: 27px;
+    margin-left: 10px;
+    color: #FFFFFF;
+    line-height: 100%;
+}
+
+
+.menu3{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.menu i{
+    color:#70CECF;
+    font-size: 190%;
+    margin-left: -10px;
+    margin-top: -3px;
+}
+
+#ludzie{
+    margin-top: 129px;
+    max-width: 100%;
+    height: 467px;
+    margin-left: -31px;
+    margin-right: -31px;
+}
+
+#con1{
+    display: none;
+}
+
+#con2{
+    display: none;
+}
+
+#con3{
+    display: none;
+}
+
+.tlo{
+    width: auto;
+    height: auto;
+    background:#0A0E1F;
+    margin-top: 129px;
+    display: flex;
+    align-items: flex-start;
+    overflow: hidden;
+    position: relative;
+}
+
+#op{
+    text-align: left;
+    font: normal normal 600 16px/22px Open Sans;
+    color: #989797;
+    margin-left: auto;
+    margin-top: 48px;
+    padding-left: 120px;
+}
+
+#icon{
+    color: #70CECF;
+    opacity: 0.18;
+    
+    margin-left: 95px;
+    margin-top: -138px;
+    font-size: 335px;
+}
+
+.carousel_opinie{
+    color: rgb(255, 0, 200);
+    margin-top: 120px;
+    margin-left: -270px;
+}
+
+.koment{
+    text-align: left;
+    font: italic normal normal 16px/22px Open Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.nick{
+    text-align: left;
+    font: italic normal 600 16px/22px Open Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.data{
+    text-align: left;
+    font: italic normal normal 14px/19px Open Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.owl-nav{
+    display: flex;
+    position: absolute;
+    right: 150px;
+    text-align: left;
+    font: italic normal normal 14px/19px Open Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    padding: 30px;
+    font-size:45px;
+
+}
+
+#nnb{
+    font: normal normal 600 16px/22px Open Sans;
+    letter-spacing: 0px;
+    color: #585656;
+    text-transform: uppercase;
+    margin-top: 88px;
+    text-align: center;
+}
+
+.prostokat{
+    width: auto;
+    height: auto;
+    display: flex;
+    margin-top: 35px;
+}
+
+.wra{
+    max-width: 1180px;
+    margin: auto;
+}
+
+.wra img{
+    width: 100%;
+}
+
+.nap{
+    width: auto;
+    height: auto;
+    display: flex;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.nap p{
+    text-align: left;
+    font: normal normal normal 16px/22px Open Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    margin-left: 10px;
+}
+
+.nap ul{
+    text-align: right;
+    font: normal normal normal 14px/19px Open Sans;
+    letter-spacing: 0px;
+    color: #989797;
+    margin-right: 10px;
+}
+
+.podsumowanie{
+    background-image: url("img/Projekt\ bez\ tytułu\ \(3\).png");
+    opacity: 1;
+    height: 600px;
+    width: auto;
+    background-position: center;
+    background-size: cover;
+    margin-top: 100px;
+}
+
+.kontakt{
+    text-align: center;
+}
+
+#kont1{
+    font: normal normal 600 16px/22px Open Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    margin-top: 38px;
+}
+
+#kont2{
+    font: normal normal normal 16px/25px Open Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.lewa{
+    text-align: left;
+    font: normal normal normal 18px/25px Open Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+#gps{
+    font: normal normal 600 18px/25px Open Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+#ndm{
+    text-align: left;
+    font: normal normal 600 18px/25px Open Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+#text1{
+    background:none ;
+    border: 1px solid #707070;
+    opacity: 1;
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    width: 100%;
+    color: #FFFFFF;
+    padding-left: 10px;
+}
+
+#text2{
+    background:none ;
+    border: 1px solid #707070;
+    opacity: 1;
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    width: 100%;
+    margin-top: 6px;
+    color: #FFFFFF;
+    padding-left: 10px;
+}
+
+#text3{
+    background:none;
+    border: 1px solid #707070;
+    opacity: 1;
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    width: 100%;
+    height: 85%;
+    margin-top: 6px;
+    color:white;
+    padding-left: 10px;
+}
+
+::placeholder{
+    color: white;
+}
+
+#wyslij{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 35px;
+    text-align: center;
+    font: normal normal 600 16px/22px Open Sans;
+    letter-spacing: 0px;
+    color: #373232;
+    width: 92px;
+    height: 34px;
+    margin-top: 15px;
+    margin-left: 485px;
+}
+
+.meni{
+    background: #000922 0% 0% no-repeat padding-box;
+    height: auto;
+    width: auto;
+    padding-top: 45px;
+}
+
+.pgps{
+    text-align: left;
+    font: normal normal 600 14px/16px Open Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.pgps img{
+    width: 40px;
+    height: 40px;
+    padding-right: 5px;
+}
+
+.meninapisy{
+    text-align: left;
+    font: normal normal normal 14px/16px Open Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+#polityka{
+    text-align: left;
+    font: normal normal normal 12px/25px Open Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    margin-top: 87px;
+}
+
+#realizacja{
+    text-align: right;
+    font: normal normal normal 12px/25px Open Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    margin-top: -40px;
+    padding-right: 50px;
+}
+
+#realizacja img{
+    height: 12px;
+    width: auto;
+}
+
+
+@media(max-width: 1100px){
+    .kolo{
+        width: 230px;
+        height: 230px;
+    }   
+}
+
+@media(max-width: 915px){
+    .kolo{
+        width: 200px;
+        height: 200px;
+    }   
+}
+
+@media(max-width: 791px){
+    .kolo{
+        width: 160px;
+        height: 160px;
+
+    }   
+}
+
+@media(max-width: 1502px){
+    .napis{
+        padding-left: 415px;
+        padding-right: 415px;
+      }
+}
+
+@media(max-width: 1350px){
+    .napis{
+      padding-left: 370px;
+      padding-right: 370px;
+    }
+}
+
+@media(max-width: 1190px){
+    .napis{
+      padding-left: 290px;
+      padding-right: 290px;
+    }
+}
+
+@media(max-width: 1029px){
+    .napis{
+      padding-left: 200px;
+      padding-right: 200px;
+    }
+}
+
+@media(max-width: 850px){
+    .napis{
+      padding-left: 100px;
+      padding-right: 100px;
+    }
+}
+
+@media(max-width: 1390px){
+    #pani{
+        right: 75px;
+    }
+}
+
+@media(max-width: 1290px){
+    #pani{
+        right: 25px;
+    }
+}
+
+@media(max-width: 1010px){
+    #pani{
+        right: 0px;
+        height: 450px;
+        width: 370px;
+    }
+}
+
+@media(max-width: 890px){
+    #pani{
+        right: 0px;
+        height: 415px;
+        width: 320px;
+    }
+}
+
+@media(max-width: 815px){
+    #pani{
+        right: 0px;
+        height: 350px;
+        width: 260px;
+    }
+}
+
+@media(max-width: 720px){
+    #pani{
+        right: 0px;
+        height: 315px;
+        width: 220px;
+    }
+}
+
+@media(max-width: 660px){
+    #pani{
+        right: 0px;
+        height: 260px;
+        width: 180px;
+    }
+}
+
+@media(max-width: 767px){
+    #ludzie{
+        max-width: 100%;
+        height: auto;
+        margin-top: auto;
+    }
+}
+
+@media(max-width: 1199px){
+    #wyslij{
+        margin-left: 0px;
+    }
+}
+
+@media(max-width: 768px){
+    .podsumowanie{
+        height: 850px;
+    }
+}
+
+@media(max-width: 482px){
+    .podsumowanie{
+        height: 880px;
+    }
+}
+
+@media(max-width: 894px){
+    #jestem{
+        margin-right: 240px;
+    }
+}
+
+@media(max-width: 894px){
+    #proponuje{
+        margin-right: 336px;
+    }
+}
+
+@media(max-width: 824px){
+    #jestem{
+        margin-right: 120px;
+    }
+}
+
+@media(max-width: 824px){
+    #proponuje{
+        margin-right: 277px;
+    }
+}
+
+@media(max-width: 1573px){
+    .psychoterapia{
+        padding-left: 230px;
+        padding-right: 230px;
+    }
+}
+
+@media(max-width: 1133px){
+    .psychoterapia{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+@media(max-width: 873px){
+    .psychoterapia{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+@media(max-width: 773px){
+    .psychoterapia{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+@media(max-width: 673px){
+    .psychoterapia{
+        font-size: 40px;
+    }
+}
+
+@media(max-width: 486px){
+    .psychoterapia{
+        font-size: 30px;
+    }
+}
+
+@media(max-width: 486px){
+    #jesli{
+        font-size: 15px;
+    }
+}
+
+
+
+.menuo img{
+    width: 64px;
+    height: 64px;
+    margin-left: 1px;
+}
+
+.menuo{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+}
+
+.menuo #ipp{
+    text-align: left;
+    font: normal normal bold 17px/20px Open Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+    white-space:nowrap;
+    margin-top: -15px;
+}
+
+.O_mnie img{
+    width: 286px;
+    height: 374px;
+    margin-top: 50px;
+}
+
+
+.O_mnie .wra{
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+#omnomn{
+    text-align: left;
+    font: normal normal bold 18px/22px Open Sans;
+    letter-spacing: 0px;
+    color: #373232;
+    opacity: 1;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+#omnczarne{
+    text-align: left;
+    font: normal normal normal 16px/22px Open Sans;
+    letter-spacing: 0px;
+    color: #373232;
+    opacity: 1;
+}
+
+#omnniebieskie{
+    text-align: left;
+    font: normal normal normal 16px/22px Open Sans;
+    letter-spacing: 0px;
+    color: #70CECF;
+    opacity: 1;
+}
+
+#omngrube{
+    text-align: center;
+    font: normal normal normal 25px/38px Pacifico;
+    letter-spacing: 0px;
+    color: #373232;
+    opacity: 1;
+}
+
+@media(max-width: 1267px){
+    .omnr{
+        margin-left: 12px;
+    }
+}
+
+@media(max-width: 1543px){
+    .menuo nav{
+        padding-left: 500px;
+    }
+}
+
+@media(max-width: 1323px){
+    .menuo nav{
+        padding-left: 280px;
+    }
+}
+
+@media(max-width: 1111px){
+    .menuo nav{
+        padding-left: 165px;
+    }
+}
+
+@media(max-width: 987px){
+    .menuo nav{
+        padding-left: 0px;
+    }
+}
+
+@media(max-width: 823px){
+    .menuo nav{
+        white-space: pre-line;
+        padding-left: 0px;
+    }
+}
+
+.uslugi_terapia{
+    background-image: linear-gradient(to right,rgba(255, 255, 255), rgba(255, 255, 255, 0.1)), url("img/indywidualne1.png");
+    opacity: 1;
+    height: 600px;
+    width: auto;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+#ti{
+    text-align: left;
+    font: normal normal bold 30px/22px Open Sans;
+    letter-spacing: 0px;
+    color: #373232;
+    opacity: 1;
+    padding-top: 55px;
+    padding-bottom: 30px;
+}
+
+#tit{
+    text-align: left;
+    font: normal normal normal 16px/22px Open Sans;
+    letter-spacing: 0px;
+    color: #373232;
+    opacity: 1;
+}
+
+#uslugi_cena{
+    background: none;
+    border-color: #70CECF;
+    color: #000000;
+    border-radius: 35px;
+    opacity: 1;
+}
+
+#uslugi_umow{
+    background: black;
+    color: #ffffff;
+    border-radius: 35px;
+    opacity: 1;
+}
+
+
+#opa{
+    text-align: left;
+    font: normal normal 600 16px/22px Open Sans;
+    letter-spacing: 0px;
+    color: #373232;
+    opacity: 1;
+}
+
+#wystawo{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #989797;
+    border-radius: 22px;
+    opacity: 1;
+    text-align: center;
+    font: normal normal 600 16px/22px Open Sans;
+    letter-spacing: 0px;
+    color: #70CECF;
+    opacity: 1;
+}
+
+.opinie_pacjentow{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 42px;
+    margin-bottom: 10px;
+}
+
+.k{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    padding-top: 31px;
+    padding-left: 30px ;
+    padding-right: 30px;
+}
+
+.slowa{
+    text-align: left;
+    font: italic normal normal 16px/22px Open Sans;
+    letter-spacing: 0px;
+    color: #373232;
+    opacity: 1;
+    margin-top: -125px;
+}
+
+.nik{
+    text-align: left;
+    font: italic normal 600 16px/22px Open Sans;
+    letter-spacing: 0px;
+    color: #373232;
+    opacity: 1;
+}
+
+.date{
+    text-align: left;
+    font: italic normal normal 14px/19px Open Sans;
+    letter-spacing: 0px;
+    color: #373232;
+    opacity: 1;
+}
+
+.opinie_kwadraty{
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    gap: 17px;
+    margin-bottom: 108px;
+}
+
+#cudzyslow{
+    background: 0% 0% no-repeat padding-box;
+    opacity: 0.18;
+    color: #70CECF;
+    font-size: 165px;
+}
+
+#blok{
+   margin-top: 42px;
+   text-align: left;
+    font: normal normal 600 16px/22px Open Sans;
+    letter-spacing: 0px;
+    color: #373232;
+    opacity: 1;
+}
+
+.kontaktt{
+    background-image: url("img/Projekt\ bez\ tytułu\ \(3\).png");
+    opacity: 1;
+    height: 600px;
+    width: auto;
+    background-position: center;
+    background-size: cover;
+}
+
+@media(max-width: 768px){
+    .kontaktt{
+        height: 850px;
+    }
+}
+
+@media(max-width: 482px){
+    .kontaktt{
+        height: 880px;
+    }
+}
+
+
